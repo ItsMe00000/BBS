@@ -45,6 +45,9 @@ public class CountDownTime implements Runnable {
         handler.removeCallbacks(this);
     }
 
+    /*
+    回调函数
+     */
     public interface ICountDownTimeHandle {
         void onTime(int time);
 

@@ -11,6 +11,9 @@
         android:theme="@style/Theme.BBS">
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.OpenActivity"
             android:exported="true"
             android:theme="@style/myopen">
             <intent-filter>
